@@ -96,7 +96,7 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a table</h2>
-          <form action="" class="reservation__form form">
+          <form class="reservation__form form">
             <fieldset class="form__fieldset">
               <label for="name" class="form__label">Name *</label>
               <input
@@ -108,7 +108,6 @@
               <label for="number" class="form__label">Number of guests *</label>
               <input
                 type="number"
-                name=""
                 id="number"
                 class="form__input"
                 min="1"
@@ -119,7 +118,6 @@
               <label for="date" class="form__label">Date & time *</label>
               <input
                 type="datetime-local"
-                name=""
                 id="date"
                 class="form__input"
                 required
@@ -127,7 +125,6 @@
               <label for="email" class="form__label">Your email *</label>
               <input
                 type="email"
-                name=""
                 id="email"
                 class="form__input"
                 placeholder="email@email.com"
@@ -136,13 +133,8 @@
             </fieldset>
             <button type="submit" class="form__button">Book a table</button>
             <label for="checkbox" class="form__label form__label_type_checkbox"
-              ><input
-                type="checkbox"
-                name=""
-                id="checkbox"
-                class="form__checkbox"
-              />
-              I agree with the terms of use</label
+              ><input type="checkbox" id="checkbox" class="form__checkbox" /> I
+              agree with the terms of use</label
             >
           </form>
         </section>
