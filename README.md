@@ -13,4 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Add your ideas here :
+
+Adding in more clean animations could help improve user experience and keep the user engaged with the site.
