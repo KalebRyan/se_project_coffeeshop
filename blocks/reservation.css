@@ -59,11 +59,11 @@
   background-color: #2f80ed;
   color: #fff;
   font-weight: 500;
+  transition: 0.5s ease-in-out;
 }
 
 .form__button:hover {
   opacity: 70%;
-  transition: 1s ease-in;
 }
 
 .form__label_type_checkbox {
